@@ -1,0 +1,25 @@
+.tool {
+    cursor: pointer;
+}
+
+.tool:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    transform: scale(0.7);
+    transition: all .8s ease;
+    filter: invert(16%) sepia(13%) saturate(17%) hue-rotate(355deg) brightness(101%) contrast(90%);
+}
+
+/*icon:hover {*/
+/*    filter: invert(26%) sepia(0%) saturate(2%) hue-rotate(116deg) brightness(95%) contrast(91%);*/
+/*}*/
+
+icon:hover {
+    filter: invert(24%) sepia(41%) saturate(2750%) hue-rotate(243deg) brightness(99%) contrast(91%);
+}
+
+/*icon:active {*/
+/*    filter: invert(24%) sepia(41%) saturate(2750%) hue-rotate(243deg) brightness(99%) contrast(91%);*/
+/*}*/

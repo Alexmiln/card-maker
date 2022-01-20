@@ -1,0 +1,13 @@
+.top_panel {
+    /*width: 100%;*/
+    padding-left: 48px;
+    background-color: white;
+    height: 50px;
+    box-shadow: 0 5px 0px rgb(0 0 0 / 0%), 0 4px 14px rgb(0 0 0 / 22%);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    padding: 0 10.64px;
+}

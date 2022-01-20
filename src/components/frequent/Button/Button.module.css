@@ -1,0 +1,44 @@
+.button {
+    position: relative;
+    font: 19px/32px "Open Sans", sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.button__title {
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.button__title:hover {
+    background: #e3e3e3;
+}
+
+.top-panel {
+    padding: 5px 6px;
+    max-width: 50px;
+    font: 19px/32px "Open Sans", sans-serif;
+    color: #333333;
+    background-color: white;
+}
+
+.top-panel__dropdown {
+    background-color: white;
+    width: 139px;
+    border-radius: unset;
+    min-width: 139px;
+    font: 16px/32px "Open Sans", sans-serif;
+}
+
+.top-panel__dropdown:hover {
+    background-color: #e3e3e3;
+}
+
+.button__title top-panel__dropdown:hover {
+
+}
