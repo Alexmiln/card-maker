@@ -7,7 +7,7 @@ export function Toolbar() {
         <div className={styles.toolbar} >
             <Button title={'Move tool'} icon={'move'} onClick={() => console.log('Move')} />
             <Button title={'Text tool'} icon={'text'} onClick={() => console.log('Text')} />
-            <Button title={'Crop tool'} icon={'crop'} onClick={() => console.log('CROP THIS Sugar Honey Ise Tea')} />
+            <Button title={'Crop tool'} icon={'crop'} onClick={() => console.log('CROP THIS')} />
             <div className={styles.figure}>
                 <Button title={'Rectangle tool'} icon={'rectangle'} onClick={() => console.log('Rect')} />
                 <Button title={'Triangle tool'} icon={'triangle'} onClick={() => console.log('Triangle')} />
